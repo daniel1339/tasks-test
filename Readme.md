@@ -8,5 +8,5 @@
 
 - Entrar a la carpeta public, correr servidor: php -S localhost:8000
 
-- Algo adicional yo trabaje con xampp por q lo q la contraseña esta vacia pero en caso tal deben cambiar las variables de entorno.
+- Algo adicional yo trabaje con xampp por lo que la contraseña esta vacia pero en caso tal deben cambiar las variables de entorno.
 
