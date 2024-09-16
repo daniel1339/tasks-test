@@ -1,0 +1,23 @@
+{
+    "name": "mi_empresa/tasks",
+    "description": "Aplicación de tareas",
+    "type": "1",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "license": "gnu",
+    "autoload": {
+        "psr-4": {
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "daniel arguelles"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
