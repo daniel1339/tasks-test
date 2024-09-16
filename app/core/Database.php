@@ -4,11 +4,10 @@ class Database {
     private $pdo;
 
     public function __construct() {
-        // Configura tu conexión a la base de datos
-        $host = 'localhost';
-        $db   = 'tasks'; // Nombre de tu base de datos
-        $user = 'root';  // Usuario de MySQL
-        $pass = '';      // Contraseña de MySQL
+        $host = $_ENV['DB_HOST'] ?? '127.0.0.1';
+        $db = $_ENV['DB_NAME'] ?? 'tasks';
+        $user = $_ENV['DB_USER'] ?? 'root';
+        $pass = $_ENV['DB_PASS'] ?? '';
         $charset = 'utf8mb4';
 
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
