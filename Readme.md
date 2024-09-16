@@ -2,7 +2,7 @@
 
 ## Requerimientos para correr la aplicación
 
-- Subir la base de datos enterprise que se encuentra en la carpeta data a mysql .
+- Subir la base de datos tasks que se encuentra en la carpeta data a mysql .
 
 - composer install
 
